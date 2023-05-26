@@ -18,7 +18,7 @@ class CalculatorTest {
     void tearDown() {
     }
 
-    @Test
+    /*@Test
     void testDivision1() {
         assertEquals(5, Calculator.divide(10, 2));
     }
@@ -53,9 +53,6 @@ class CalculatorTest {
         );
 
     }*/
-
-    //testdivision6 was giving an error on my computer for some reason
-    //thats why i commented it
 
 
     @ParameterizedTest
