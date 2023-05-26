@@ -61,8 +61,8 @@ class CalculatorTest {
 
     //taking the values from the first 5 tests
 
-    void dataDrivenDivision(double dividend,double divisor,double correctResult) {
-        assertEquals(correctResult ,Calculator.divide(dividend ,divisor));
+    void dataDrivenDivision(double a,double b,double correctResult) {
+        assertEquals(correctResult ,Calculator.divide(a, b));
     }
 }
 
